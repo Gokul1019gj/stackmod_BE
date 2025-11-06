@@ -21,3 +21,6 @@ import { env } from './config/env.js';
     process.exit(1);
   }
 })();
+
+
+
