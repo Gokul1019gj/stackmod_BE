@@ -1,0 +1,61 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build and cache directories
+dist/
+build/
+.cache/
+coverage/
+.tmp/
+
+# Logs
+logs
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Database artifacts
+*.sqlite
+*.sqlite3
+dump.sql
+database.db
+
+# Uploaded files (if using multer, etc.)
+uploads/
+public/uploads/
+
+# TypeScript cache (if using TS)
+*.tsbuildinfo
+
+# Misc
+.env.backup
+*.local
